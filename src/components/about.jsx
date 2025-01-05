@@ -9,7 +9,11 @@ function about() {
     <div id='about' className='bg-white py-0 px-0'>
         <div className='justify-items-center py-12 cursor-default'>
             <h1 className='text-4xl md:text-5xl'><span className='bg-blue-500 text-white px-2 border-2 border-blue-500'>About</span><span className='text-blue-500 border-2 border-blue-500 px-2 bg-white'>Me</span></h1>
-            <p className='pt-8 text-2xl text-center text-gray-600 border-b-2 border-gray-400'>Introduction</p>
+            <div className='flex-col justify-items-center'>
+                <p className='pt-8 text-2xl text-center text-gray-600 '>Introduction</p>
+                <p className="w-24 h-[2px] bg-gray-500"></p>
+            
+            </div>
             <div className='px-8 md:px-16 lg:px-24 justify-items-center content-center'>
                 <div className='py-10'>
                     <img src={ProfileImg} className='rounded-full w-60 h-60 ' alt="About" srcset="" />
