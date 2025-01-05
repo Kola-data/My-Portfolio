@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* globals.css or index.css */
+@layer components {
+    /* Custom scrollbar styles */
+    ::-webkit-scrollbar {
+      width: 12px; /* scrollbar width */
+    }
+  
+    ::-webkit-scrollbar-track {
+      background-color: #f1f1f1; /* light gray track */
+      border-radius: 10px;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background-color: rgb(59 130 246); /* blue thumb */
+      border-radius: 10px;
+      border: 3px solid #f1f1f1; /* border around thumb */
+    }
+  
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: rgb(37 99 235); /* darker blue on hover */
+    }
+  }
+  
