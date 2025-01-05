@@ -7,8 +7,10 @@ function projects() {
         <div className='cursor-default'>
             <div className='justify-items-center'>
                 <h1 className='text-4xl md:text-5xl'><span className='bg-blue-500 text-white px-2 border-2 border-blue-500'>My</span><span className='text-blue-500 border-2 border-blue-500 px-2 bg-white'>Portfolio</span></h1>
-                <p className='pt-8 text-2xl text-center text-gray-700 border-b-2 border-gray-600'>Latest Portfolio</p>
-                
+               <div className='flex-col justify-items-center'>
+                    <p className='pt-8 text-2xl text-center text-gray-700'>Latest Portfolio</p>
+                    <p className="w-28 h-[2px] bg-gray-500"></p>
+                </div>
             </div>
             <div className='py-8 px-4 md:px-16 lg:px-24 justify-items-center'>
                 <div className="gap-5 flex-wrap flex">
