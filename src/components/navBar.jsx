@@ -14,8 +14,8 @@ function navBar() {
         <nav className="bg-blue-500 w-full fixed z-50 text-white px-1 sm:px-10 xl:px-24" >
           <div className="py-4 flex justify-between md:justify-between items-center" >
             <div className="flex-col justify-items-center">
-              <p className="md:text-5xl cursor-pointer text-3xl">Emmanuel</p>
-              <p className="w-36 h-1 bg-white"></p>
+              <p className="md:text-5xl cursor-pointer text-4xl">Emmanuel</p>
+              <p className="md:w-36 w-24 h-1 bg-white"></p>
             </div>
               <div className="hidden md:space-x-10 md:block">
                 <a className="hover:text-white hover:border-b-2 cursor-pointer text-lg focus:outline-none">
