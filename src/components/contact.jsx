@@ -35,8 +35,10 @@ function contact() {
   return (
     <div id='contact' className='py-10 px-1 justify-items-center items-center bg-white'>
         <h1 className='text-4xl md:text-5xl'><span className='bg-blue-500 text-white px-2 border-2 border-blue-500'>Contact</span><span className='text-blue-500 border-2 border-blue-500 px-2 bg-white'>Me</span></h1>
-        <p className='pt-8 text-2xl text-center text-gray-600 border-b-2 border-gray-400'>Connect With Me</p>
-        
+        <div className='flex-col justify-items-center'>
+            <p className='pt-8 text-2xl text-center text-gray-600'>Connect With Me</p>
+            <p className="w-28 h-[2px] bg-gray-500"></p> 
+        </div>
         <div className='flex-wrap flex py-10 justify-center w-full'>
             <div className='bg-gray-100 px-7 py-7 xl:px-10 xl:py-10 lg:mr-5 mb-5 lg:mb-0 rounded-lg xl:items-center w-11/12 lg:w-auto'>
                 <div className='flex'>
