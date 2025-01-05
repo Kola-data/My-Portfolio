@@ -21,7 +21,7 @@ function home() {
           I'm Emmanuel Rutayisire,
         </p>
         <h1 className="lg:text-4xl text-white md:text-2xl text-xl">
-          Full stark developer
+          Full stack developer
         </h1>
         <p className="px-5 py-5 text-white lg:text-lg">Hello I'm passionate full stack developer with 1+ year experience in web application development</p>
         <div className="flex gap-5 py-6 md:pb-10">
