@@ -1,4 +1,4 @@
-import React from 'react'
+ilimport React from 'react'
 import Loc from "../images/loc.webp"
 import Call from "../images/phone.png"
 import Mail from "../images/mail.png"
@@ -88,7 +88,7 @@ function contact() {
                         <br />
                         <div className='relative w-full'>
                             
-                            <input type='text' id='Email' name='Email' placeholder='E-mail' 
+                            <input type='email' id='Email' name='Email' placeholder='E-mail' 
                             required className='peer px-4 w-full bg-gray-100 py-2 text-gray-700 
                             text-lg outline-none border-2 focus:outline-none
                             border-blue-600 rounded-md hover:border-blue-500 duration-200
